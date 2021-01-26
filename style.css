@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+.container {
+  height: 100vh;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  width: 7rem;
+  padding: 0.6rem;
+  margin: 3rem;
+  box-shadow: cadetblue 2px 2px 4px;
+  transition: transform 150ms;
+  outline: none;
+  border: none;
+}
+.semafor {
+  font-size: larger;
+  position: relative;
+  top: 10%;
+  align-self: flex-start;
+}
+.btn:hover {
+  border-radius: 2%;
+  transform: translateY(-5%);
+  transition: box-shadow transform 150ms;
+  outline: none;
+  border: none;
+  box-shadow: cadetblue 3px 4px 6px;
+}
+.id-list {
+  background-color: whitesmoke;
+  position: absolute;
+  top: 20%;
+}
+.active {
+  color: red;
+}
